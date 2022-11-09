@@ -11,10 +11,10 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Travel The World",
+            description: "Currently in development.",
             imgUrl: projImg1,
-            link: "http://google.ca",
+            link: "",
         },
         {
             title: "Business Startup",
@@ -28,24 +28,7 @@ export const Projects = () => {
             imgUrl: projImg3,
             link: "http://google.ca",
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-            link: "http://google.ca",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-            link: "http://google.ca",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "http://google.ca",
-        },
+
     ];
 
 
