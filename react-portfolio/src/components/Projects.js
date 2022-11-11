@@ -1,8 +1,15 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import travelAppImg from "../assets/img/mntn.png";
+import onlineStoreAppImg from "../assets/img/online_pet_store.jpg";
 import projImg3 from "../assets/img/project-img3.png";
+import passwordAppImg from "../assets/img/password.jpg";
+import christmasCountdownImg from "../assets/img/ChristmasCountdown.png";
+import onlinePetStoreAppImg from "../assets/img/online-pet-store.jpg";
+import onlineStore from "../assets/img/online-store.jpg";
+
+
+import handHero from "../assets/img/hand-hero.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,21 +19,27 @@ export const Projects = () => {
     const projects = [
         {
             title: "Travel The World",
-            description: "Currently in development.",
-            imgUrl: projImg1,
+            description: "Currently in development. Check back later.",
+            imgUrl: travelAppImg,
             link: "",
+            codeLink: "",
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-            link: "http://google.ca",
+            title: "E-commerce website",
+            description: "Currently in development. Check back later.",
+            imgUrl: onlineStore,
+            link: "",
+            codeLink: "",
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "http://google.ca",
+            title: "AI learns to play",
+            description: "Currently in development. Check back later.",
+            imgUrl: handHero,
+            link: "",
+            codeLink: "",
+
         },
 
     ];
@@ -34,41 +47,30 @@ export const Projects = () => {
 
     const vanilla_projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-            link: "http://github.com",
+            title: "Random Password Generator",
+            description: "Safety first.",
+            imgUrl: passwordAppImg,
+            link: "https://password-generatorxyz.netlify.app/",
+            codeLink: "https://github.com/TanujSharma24/password-generator",
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-            link: "http://google.ca",
+            title: "Christmas Countdown",
+            description: "Counting down the time till Christmas Eve.",
+            imgUrl: christmasCountdownImg,
+            link: "https://christmas-countdown2022.netlify.app/",
+            codeLink: "https://github.com/TanujSharma24/countdown-timer",
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "http://google.ca",
+            title: "Pet Accessories Store",
+            description: "Your one shop stop for all your pet needs.",
+            imgUrl: onlinePetStoreAppImg,
+            link: "https://pet-planet-store.netlify.app/",
+            codeLink: "https://github.com/TanujSharma24/vanilla-shopping-cart",
+
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-            link: "http://google.ca",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-            link: "http://google.ca",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "http://google.ca",
-        },
+    
     ];
 
     return (

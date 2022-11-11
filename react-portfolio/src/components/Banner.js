@@ -57,7 +57,7 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hi! I'm Tanuj.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer.", "Web Designer.","UI/UX Designer." ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>I am a recent graduate of the University of Calgary where I obtained a BSc in Computer Science. I am easily impressed by mild dog tricks and ecstatic at code that works the first time. Did you know that Saturn is the only planet in our solar system that would float on water?</p>
+                                    <p>I'm a recent Computer Science grad with a passion for software development. Combining a career in retail sales, and client-facing customer solutions with a background and passion for current technologies, I believe I can bring value to any team. </p>
                                     <button><a href="https://www.linkedin.com/in/tanuj-sharma24/" target="_blank">Let's Connect <ArrowRightCircle size={25} />
                                     </a></button>
                                     {/* <button onClick={() => console.log('connect')}>Scroll down to learn more
